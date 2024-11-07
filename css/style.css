@@ -161,6 +161,11 @@ button:focus {
   color: #fff;
 }
 
+.opportunities {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .visualli-hidden {
   position: absolute;
   height: 1px;
@@ -168,17 +173,12 @@ button:focus {
   border: 0;
   padding: 0;
   margin: 1px;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 .opportunities-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .opportunities-item {
@@ -274,7 +274,7 @@ img {
   padding: 120px 0;
 }
 
-.portfolio-list .container {
+.portfolio .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
